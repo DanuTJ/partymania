@@ -138,4 +138,6 @@ if(!isset($_SESSION['userid'])){
             alert("Your request has been sent!");
         }
     </script>
+    <a href="index.html">Back to Home Page</a>
+
 </body>
