@@ -138,4 +138,15 @@ if(!isset($_SESSION['userid'])){
             alert("Your request has been sent!");
         }
     </script>
+     <div class="row">
+          <button onclick="Backtohome()">Home</button>
+          <button style="margin-left: 2rem;" onclick="Backtohome();">Home</button>
+      </div>';
+   
+
+<script>
+function Backtohome() {
+  location.replace("http://35.247.185.195/partymania/")
+}
+</script>
 </body>
